@@ -15,9 +15,29 @@
     font-family: Montauk-Regular;
     src: url(../fonts/Montauk-Regular/Montauk-Regular.otf);
 }
-@font-face {
+@font-face { 
     font-family: FugazOne;
     src: url(../fonts/Montauk-Regular/Fugaz_One/FugazOne-Regular.ttf);
 }
 
+
+body{
+    background-image: url("../assets/bgtexture.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text{
+    color: rgb(95,0,43);
+    font-weight: bold;
+}
+h1{
+    background-color: white;
+}
+
+h5{
+    color: rgb(95,0,43);
+    font-weight: bold;
+}
 /* End of Fonts */
