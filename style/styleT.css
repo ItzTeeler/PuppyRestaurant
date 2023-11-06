@@ -21,3 +21,8 @@
 }
 
 /* End of Fonts */
+
+body{
+    background-image: url(../assets/bgtexture.jpg);
+    object-fit: cover;
+}
