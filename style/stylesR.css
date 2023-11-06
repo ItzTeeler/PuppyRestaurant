@@ -21,3 +21,52 @@
 }
 
 /* End of Fonts */
+
+
+body{
+    background-image: url(../assets/bgtexture.jpg);
+}
+.pic1{
+    background-image: url(../assets/AboutMain.jpg);
+    height: 474px;
+    width: 600px;
+    background-position: center;
+}
+.whiteb{
+background-color: white;
+}
+
+.padi{
+    padding-top: 3%;
+}
+.pas{
+    padding: 1%;
+    text-align: center;
+}
+.space{
+    
+        display: flex;
+        justify-content: space-evenly;
+ 
+}
+.pL{
+  padding-left: 1%;
+}
+.c1{
+    display: flex;
+    justify-content: end;
+    width: 600px;
+}
+.c2{
+    display: flex;
+    justify-content: center;
+}
+
+.cardh{
+    color: #5F002B;
+    font-family: FugazOne;
+    font-size: 30px;
+}
+.pd{
+    padding-bottom: 2%;
+}
