@@ -134,6 +134,17 @@ body{
 /* End of Footer */
 
 
+/* Page 4 */
+.photoCards{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.photoBorder{
+    border: 5px white solid;
+}
+/* End of Page 4 */
+
 @media screen and (max-width: 767px){
     .footTextMove1{
         display: flex;
