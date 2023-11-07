@@ -38,8 +38,13 @@ h1{
 }
 
 h5{
+    font-family: Montauk-Regular;
+    color: rgb(95,0,43);
+}
+h4{
     color: rgb(95,0,43);
     font-weight: bold;
+    font-family: FugazOne;
 }
 .footText{
     font-size: 20px;
@@ -52,7 +57,10 @@ h5{
     align-items: start;
     flex-direction: column;
 }
-
+p{
+    font-family: Montauk-Regular;
+    color: rgb(95,0,43);
+}
 
 .footTextMove2{
     display: flex;
