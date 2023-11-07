@@ -31,25 +31,41 @@ body{
 .text{
     color: rgb(95,0,43);
     font-weight: bold;
+    font-size: 25px;
 
 }
-h1{
+.border{
+    
+}
+.h1text{
     background-color: white;
+    font-family: FugazOne;
+    color: rgb(95,0,43);
+
+
 }
 
-h5{
+.h5text{
     font-family: Montauk-Regular;
     color: rgb(95,0,43);
+    font-size: 25px;
 }
-h4{
+.h4text{
     color: rgb(95,0,43);
-    font-weight: bold;
+    font-weight:bolder;
+    font-size: 30px;
     font-family: FugazOne;
+    line-height: 1;
 }
+
 .footText{
     font-size: 20px;
     color: #5F002B;
     font-family: Montauk-Regular;
+}
+.list-group-item{
+    border-color: #5F002B;
+    height: 100%;
 }
 
 .footTextMove1{
@@ -57,8 +73,9 @@ h4{
     align-items: start;
     flex-direction: column;
 }
-p{
+.ptext{
     font-family: Montauk-Regular;
+    font-size: 16px;
     color: rgb(95,0,43);
 }
 
