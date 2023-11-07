@@ -21,3 +21,41 @@
 }
 
 /* End of Fonts */
+body{
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+
+.firstBanner{
+background-image: url(../assets/homeHero.jpg);
+height: 500px
+}
+
+.backg{
+    background-color: white;
+    height
+}
+.maintxt{
+    font-size: 40px;
+    color: #5F002B;
+   font-family: FugazOne;
+   padding-top: 3%;
+   padding-left: 3%;
+}
+
+.notmain{
+    font-size: 16px;
+    color: #5F002B;
+   font-family: FugazOne;
+   /* padding-top: ; */
+   padding-left: 3%;
+}
+.homeback{
+    background-image: url(../assets/HomeImage.jpg);
+    height: 162px;
+    width: auto;
+}
+.picturetwo{
+   width: 100%;
+   height: 100%;
+}
