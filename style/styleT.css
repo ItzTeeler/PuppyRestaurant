@@ -123,6 +123,7 @@ body{
     display: flex;
     align-items: start;
     flex-direction: column;
+    
 }
 
 
@@ -136,9 +137,9 @@ body{
 
 /* Page 4 */
 .photoCards{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .photoBorder{
     border: 8px #FFFFFF solid;
