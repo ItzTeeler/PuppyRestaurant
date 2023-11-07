@@ -141,7 +141,7 @@ body{
   object-fit: cover;
 }
 .photoBorder{
-    border: 10px #FFFFFF solid;
+    border: 8px #FFFFFF solid;
 }
 /* End of Page 4 */
 @media screen and (max-width: 410px) {
