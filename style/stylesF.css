@@ -55,7 +55,11 @@ body{
     font-family: FugazOne;
     line-height: 1;
 }
-
+.ptext{
+    font-family: Montauk-Regular;
+    font-size: 16px;
+    color: rgb(95,0,43);
+}
 .footText{
     font-size: 20px;
     color: #5F002B;
@@ -70,11 +74,6 @@ body{
     display: flex;
     align-items: start;
     flex-direction: column;
-}
-.ptext{
-    font-family: Montauk-Regular;
-    font-size: 16px;
-    color: rgb(95,0,43);
 }
 
 .footTextMove2{
