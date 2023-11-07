@@ -79,18 +79,18 @@ body{
 /* End of Catering Hero Image */
 
 /* Start of Catering Services */
-.textHead{
+.textCaterHead{
     font-family: FugazOne;
     color: #5F002B;
     font-size: 30px;
 }
-.textBody{
+.textCaterBody{
     color: #5F002B;
     font-family: Montauk-Regular;
     font-size: 20px;
     line-height: 1;
 }
-.textBox{
+.textCaterBox{
     background-color: #FFFFFF;
     padding: 5%;
 }
@@ -141,7 +141,7 @@ body{
   object-fit: cover;
 }
 .photoBorder{
-    border: 5px white solid;
+    border: 10px #FFFFFF solid;
 }
 /* End of Page 4 */
 @media screen and (max-width: 410px) {
