@@ -23,12 +23,19 @@
     font-family: FugazOne;
     src: url(../fonts/Montauk-Regular/Fugaz_One/FugazOne-Regular.ttf);
 }
-
-/* End of Fonts */
-body {
-    background-image: url(../assets/bgtexture.jpg);
+*{
+    box-sizing: border-box;
 }
 
+body{
+    background-image: url(../assets/bgtexture.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+/* End of Fonts */
 
 .firstBanner {
     background-image: url(../assets/homeHero.jpg);
@@ -96,13 +103,6 @@ body {
 /* start of Fernando's CSS */
 
 
-body{
-    background-image: url("../assets/bgtexture.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .text{
     color: rgb(95,0,43);
     font-weight: bold;
@@ -167,10 +167,6 @@ body{
 
 /* Raudels css start*/
 
-
-body{
-    background-image: url(../assets/bgtexture.jpg);
-}
 .pic1{
     width: 100%;
     height: 100%;
@@ -258,20 +254,7 @@ background-color: white;
     font-size: 13px;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-/* .dn{
-    display: none; !important
-} */
-}
 @media only screen and (max-width: 991px){
-    /* .pic1{
-        width: 100%;
-        height: 600px;
-
-    }
-    .ph{
-        height: 500px;
-    } */
     .custompadpic{
         padding-left: 0;
         padding-right: 0;
@@ -291,3 +274,145 @@ background-color: white;
 
 
  /* end of raudels css  */
+
+
+ 
+ /* Start Tyler's CSS */
+
+/* Start of NavBar */
+.navBarMove{
+    display: flex;
+    justify-content: end;
+}
+
+.navFont{
+    font-family: FugazOne;
+    font-size: 20px;
+    text-align: left;
+    color: #5F002B;
+
+}
+
+.navColumn{
+    display: flex;
+    flex-direction: row;
+}
+
+/* End of NavBar */
+
+/* Start of Catering Title */
+.headFont{
+    display: flex;
+    justify-content: center;
+    font-family: FugazOne;
+    color: #5F002B;
+    font-size: 50px;
+}
+.headBox{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+/* End of Catering Title */
+
+/* Catering Hero Image */
+.cateringHero{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+/* End of Catering Hero Image */
+
+/* Start of Catering Services */
+.textCaterHead{
+    font-family: FugazOne;
+    color: #5F002B;
+    font-size: 30px;
+}
+.textCaterBody{
+    color: #5F002B;
+    font-family: Montauk-Regular;
+    font-size: 20px;
+    line-height: 1;
+}
+.textCaterBox{
+    background-color: #FFFFFF;
+    padding: 5%;
+}
+.cateringPicMaine{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* End of Catering Services */
+
+/* Start of 3 image */
+
+.cateringPics{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* End of 3 Image */
+
+/* Start of Footer */
+
+.footText{
+    font-size: 20px;
+    color: #5F002B;
+    font-family: Montauk-Regular;
+}
+
+.footTextMove1{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+}
+
+.footTextMove2{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+/* End of Footer */
+
+
+/* Page 4 */
+.photoCards{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.photoBorder{
+    border: 8px #FFFFFF solid;
+}
+/* End of Page 4 */
+@media screen and (max-width: 410px) {
+    .navColumn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav-item {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footTextMove1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .footTextMove2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/* End of Tyler's CSS */
