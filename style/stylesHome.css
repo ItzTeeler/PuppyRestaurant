@@ -253,7 +253,21 @@ background-color: white;
     font-family: Montauk-Regular;
     font-size: 13px;
 }
+.pbtwo{
+    padding-bottom: 20%;
+}
 
+/* .cpone{
+    padding-right: .5%;
+}
+.cpmid{
+    padding-right: .3%;
+    padding-left: .3%;
+    padding-bottom: %;
+}
+.cpend{
+    padding-left: .5%;
+} */
 @media only screen and (max-width: 991px){
     .custompadpic{
         padding-left: 0;
