@@ -339,6 +339,14 @@ margin-left: -.5%;
     flex-direction: row;
 }
 
+.navBarMoveRight{
+    display: flex;
+    justify-content: end;
+}
+.bgHam{
+    background-color: bisque;
+}
+
 /* End of NavBar */
 
 /* Start of Catering Title */
