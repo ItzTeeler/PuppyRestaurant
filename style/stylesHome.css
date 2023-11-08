@@ -257,12 +257,23 @@ background-color: white;
     padding-bottom: 20%;
 }
 
+.cpr{
+    padding-right: 0;
+}
 
 @media only screen and (max-width: 991px){
     .custompadpic{
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 2%;
+    }
+    /* .ph{
+        height: 400px;
+        object-fit: cover;
+        
+    } */
+    .cwm{
+
     }
 }
 
