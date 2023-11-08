@@ -122,16 +122,16 @@ body{
 .h1text{
     background-color: white;
     font-family: FugazOne;
-    color: rgb(95,0,43);
+    color: #5F002B;
 }
 
 .h5text{
     font-family: Montauk-Regular;
-    color: rgb(95,0,43);
+    color: #5F002B;
     font-size: 25px;
 }
 .h4text{
-    color: rgb(95,0,43);
+    color: #5F002B;
     font-weight:bold;
     font-size: 30px;
     font-family: FugazOne;
@@ -144,7 +144,7 @@ body{
     font-family: Montauk-Regular;
 }
 .list-group-item{
-    border-color: #5F002B;
+    border-color: #980051;
     height: 100%;
 }
 
@@ -156,7 +156,7 @@ body{
 .ptext{
     font-family: Montauk-Regular;
     font-size: 16px;
-    color: rgb(95,0,43);
+    color: #5F002B;
 }
 
 .footTextMove2{
