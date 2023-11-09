@@ -119,17 +119,34 @@ body{
 .border{
 
 }
-.h1text{
-    background-color: white;
-    font-family: FugazOne;
-    color: #5F002B;
+
+
+.liLiner{
+    padding: 0%;
+
+}
+
+.list-group-item{
+    border-color: #980051;
+    height: 100%;
+    margin-bottom: 0%;
+    padding: 0%;
+    padding-top: 4%;
 }
 
 .h5text{
     font-family: Montauk-Regular;
     color: #5F002B;
     font-size: 25px;
+    padding-bottom: 0%;
 }
+
+.h1text{
+    background-color: white;
+    font-family: FugazOne;
+    color: #5F002B;
+}
+
 .h4text{
     color: #5F002B;
     font-weight:bold;
@@ -142,10 +159,7 @@ body{
     font-size: 20px;
     color: #5F002B;
     font-family: Montauk-Regular;
-}
-.list-group-item{
-    border-color: #980051;
-    height: 100%;
+    margin-bottom: 0%;
 }
 
 .footTextMove1{
@@ -157,6 +171,7 @@ body{
     font-family: Montauk-Regular;
     font-size: 16px;
     color: #5F002B;
+    margin-bottom: 0%;
 }
 
 .footTextMove2{
