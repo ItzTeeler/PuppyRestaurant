@@ -578,6 +578,16 @@ margin-left: -.5%;
     .container-sm,
     .container-xl,
     .container-xxl {
+        max-width: 1300px;
+    }
+}    
+@media (min-width: 1650px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
         max-width: 1600px;
     }
 }    
