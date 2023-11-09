@@ -314,6 +314,37 @@ margin-left: -.5%;
     padding-right: 0;
 }
 }
+@media screen and (max-width: 767px){
+    .sevenpadcl{
+      padding-left: 0%;
+    }
+    .sevenpadcr{
+      padding-right: 0%;
+    }
+    .cardh{
+        color: #5F002B;
+        font-family: FugazOne;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .blacktxt{
+        color: #5F002B;
+        font-family: Montauk-Regular;
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .story{
+        padding-left: 2%;
+        padding-top: 4%;
+        font-size: 39px;
+        font-family: FugazOne;
+        color: #5F002B;
+        text-align: center;
+    }
+  }
 
 @media only screen and (max-width: 575px){
     .cardp{
@@ -356,6 +387,11 @@ margin-left: -.5%;
         font-family: FugazOne;
         color: #5F002B;
         text-align: center;
+    }
+    .homepad{
+        padding-left: 8%;
+        padding-right: 4%;
+
     }
 }
 
