@@ -293,6 +293,11 @@ margin-left: -.5%;
 .t{
     padding-right: 4%;
 }
+.s{
+    
+    opacity: 0;
+    
+}
 
 @media only screen and (max-width: 991px){
     .custompadpic{
@@ -312,6 +317,9 @@ margin-left: -.5%;
 }
 .medicarpadr{
     padding-right: 0;
+}
+.padii{
+    padding-top: 2%;
 }
 }
 @media screen and (max-width: 767px){
@@ -343,6 +351,9 @@ margin-left: -.5%;
         font-family: FugazOne;
         color: #5F002B;
         text-align: center;
+    }
+    .padii{
+        padding-top: 2%;
     }
   }
 
@@ -389,8 +400,16 @@ margin-left: -.5%;
         text-align: center;
     }
     .homepad{
-        padding-left: 8%;
+        padding-left: 6%;
         padding-right: 4%;
+
+    }
+    .padii{
+        padding-top: 5%;
+    }
+    .s{
+        padding-right: 103.8%;
+        opacity: 0;
 
     }
 }
