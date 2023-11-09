@@ -321,6 +321,9 @@ margin-left: -.5%;
 .padii{
     padding-top: 2%;
 }
+.padit{
+    padding-top: 0%;
+}
 }
 @media screen and (max-width: 767px){
     .sevenpadcl{
